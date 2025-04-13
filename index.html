@@ -1,156 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vidhi Rana | Portfolio</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap" />
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidhi Rana | AI Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Inter', sans-serif;
-      background-color: #0d1117;
-      color: #c9d1d9;
-      line-height: 1.6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #212529;
     }
-
-    nav {
-      background-color: #161b22;
-      padding: 15px 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .navbar {
+      background-color: #002244;
     }
-
-    nav a {
-      color: #58a6ff;
-      text-decoration: none;
-      margin-left: 20px;
-      font-weight: bold;
+    .navbar-brand, .nav-link, .footer {
+      color: #ffffff !important;
     }
-
-    nav a:hover {
-      text-decoration: underline;
+    .section {
+      padding: 60px 0;
     }
-
-    .container {
-      padding: 40px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
     .profile-pic {
-      border-radius: 100px;
-      width: 120px;
+      border-radius: 50%;
+      width: 150px;
       margin-bottom: 20px;
     }
-
     .badges img {
-      margin: 4px 2px;
+      margin: 4px 3px;
     }
-
-    .section {
-      margin-bottom: 40px;
-    }
-
-    .stats img {
-      max-width: 100%;
-    }
-
     footer {
-      text-align: center;
+      background-color: #002244;
       padding: 20px;
-      font-size: 0.9em;
-      background-color: #161b22;
-      color: #8b949e;
+      color: #ffffff;
+      text-align: center;
     }
   </style>
-</head>
-
-<body>
-  <nav>
-    <div style="color:#ffffff;font-weight:bold;">Vidhi Rana</div>
-    <div>
-      <a href="#about">About</a>
-      <a href="#tech">Tech Stack</a>
-      <a href="#socials">Socials</a>
-      <a href="#stats">GitHub Stats</a>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div id="about" class="section">
-      <img src="https://avatars.githubusercontent.com/u/95570216?v=4" alt="Vidhi's Photo" class="profile-pic">
-      <h1>🌛 About Me</h1>
-      <p>I'm currently working on <strong>LLM and Generative AI</strong>.<br>
-        I'm looking to collaborate on <strong>AI for healthcare</strong> and <strong>digital twins</strong>.</p>
-    </div>
-
-    <div id="socials" class="section">
-      <h2>🌐 Socials</h2>
-      <p>
-        <a href="https://www.linkedin.com/in/vidhi-rana-604b3a21a/" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white">
-        </a>
-        <a href="mailto:vidhirana1028@gmail.com">
-          <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white">
-        </a>
-        <a href="https://github.com/vidhirana10" target="_blank">
-          <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white">
-        </a>
-      </p>
-    </div>
-
-    <div id="tech" class="section">
-      <h2>💻 Tech Stack</h2>
-      <div class="badges">
-        <!-- All badge icons go here (from your markdown) -->
-        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
-        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-        <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-        <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white">
-        <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black">
-        <img src="https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue">
-        <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white">
-        <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
-        <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
-        <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white">
-        <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white">
-        <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white">
-        <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white">
-        <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white">
-        <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white">
-        <img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white">
-        <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
-        <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-        <img src="https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green">
-        <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white">
-        <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white">
+</head><body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Vidhi Rana</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tech">Tech Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
+        </ul>
       </div>
     </div>
-
-    <div id="stats" class="section stats">
-      <h2>📊 GitHub Stats</h2>
-      <img src="https://github-readme-stats.vercel.app/api?username=vidhirana10&theme=dark&hide_border=false&include_all_commits=false&count_private=false">
-      <br><br>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=vidhirana10&theme=dark&hide_border=false">
-      <br><br>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vidhirana10&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact">
+  </nav>  <div class="container text-center section" id="about">
+    <img src="https://avatars.githubusercontent.com/u/95570216?v=4" alt="Vidhi's Photo" class="profile-pic">
+    <h1>About Me</h1>
+    <p class="mt-3">I am an AI enthusiast specializing in large language models, generative AI, and applied machine learning. I hold a B.Tech in Computer Science and Engineering from I.K. Gujral Technical University, graduating with a CGPA of 8.7/10.</p>
+    <p>Professionally, I work on AI-driven audio analytics, LLM fine-tuning (LoRA, QLoRA), and NLP-powered insights. I'm passionate about building AI solutions for healthcare, digital twins, and real-time conversation analysis.</p>
+  </div>  <div class="container section" id="experience">
+    <h2 class="text-center mb-4">Experience</h2>
+    <div class="mb-4">
+      <h5>Data Science Intern – Niva Bupa Health Insurance (Feb 2024 – Jun 2024)</h5>
+      <ul>
+        <li>Built real-time AI-driven audio analytics using Whisper and Deepgram for sales optimization.</li>
+        <li>Used LLaMA and Gemini to evaluate sales conversations and enhance agent feedback.</li>
+        <li>Applied NLP techniques to assess policy persistency and app engagement.</li>
+        <li>Automated marketing dashboards with Google keyword analytics and Looker Studio.</li>
+      </ul>
     </div>
-  </div>
-
-  <footer>
-    <p>Visitor count:</p>
-    <p><img src="https://visitcount.itsvg.in/api?id=vidhirana10&icon=0&color=0" alt="Visitor Count"></p>
-    <p>&copy; 2025 Vidhi Rana | Built with HTML & GitHub Pages</p>
-  </footer>
-</body>
-
+    <div>
+      <h5>Machine Learning Intern – Anubrain Technologies (Apr 2023 – May 2023)</h5>
+      <ul>
+        <li>Improved object detection using Faster R-CNN.</li>
+        <li>Summarized legal documents with transformer-based NLP models.</li>
+        <li>Implemented pricing strategy models for Airbnb listings.</li>
+      </ul>
+    </div>
+  </div>  <div class="container section" id="education">
+    <h2 class="text-center mb-4">Education</h2>
+    <div>
+      <h5>B.Tech – Computer Science and Engineering</h5>
+      <p>I.K. Gujral Technical University, Jalandhar<br>
+        Oct 2020 – Jun 2024 | CGPA: 8.7/10</p>
+    </div>
+  </div>  <div class="container text-center section" id="socials">
+    <h2>Connect with Me</h2>
+    <p class="mt-3">
+      <a href="https://www.linkedin.com/in/vidhi-rana-604b3a21a/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white">
+      </a>
+      <a href="mailto:vidhirana1028@gmail.com">
+        <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white">
+      </a>
+      <a href="https://github.com/vidhirana10" target="_blank">
+        <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white">
+      </a>
+    </p>
+  </div>  <div class="container text-center section" id="tech">
+    <h2>Technical Skills</h2>
+    <div class="badges mt-4">
+      <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
+      <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+      <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+      <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+      <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white">
+      <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black">
+      <img src="https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue">
+      <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white">
+      <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
+      <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
+      <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white">
+      <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white">
+      <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white">
+      <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white">
+      <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white">
+      <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white">
+      <img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white">
+      <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
+      <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+      <img src="https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green">
+      <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white">
+      <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white">
+    </div>
+  </div>  <footer>
+    <p>&copy; 2025 Vidhi Rana | Powered by GitHub Pages</p>
+  </footer></body>
 </html>
