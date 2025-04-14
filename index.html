@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vidhi Rana | AI Portfolio</title>
@@ -32,27 +35,50 @@
       color: #ffffff;
       text-align: center;
     }
+    .project-card {
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #f8f9fa;
+    }
+    .btn-resume {
+      margin-top: 20px;
+    }
   </style>
-</head><body>
+</head>
+
+<body>
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Vidhi Rana</a>
-      <div class="collapse navbar-collapse">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#tech">Tech Stack</a></li>
           <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light btn-sm ms-2" href="https://vidhirana10.github.io/Vidhi%20Rana%20%20RESUME_13-04-25.pdf" target="_blank">Download Resume</a>
+          </li>
         </ul>
       </div>
     </div>
-  </nav>  <div class="container text-center section" id="about">
+  </nav>
+
+  <div class="container text-center section" id="about">
     <img src="https://avatars.githubusercontent.com/u/95570216?v=4" alt="Vidhi's Photo" class="profile-pic">
     <h1>About Me</h1>
     <p class="mt-3">I am an AI enthusiast specializing in large language models, generative AI, and applied machine learning. I hold a B.Tech in Computer Science and Engineering from I.K. Gujral Technical University, graduating with a CGPA of 8.7/10.</p>
     <p>Professionally, I work on AI-driven audio analytics, LLM fine-tuning (LoRA, QLoRA), and NLP-powered insights. I'm passionate about building AI solutions for healthcare, digital twins, and real-time conversation analysis.</p>
-  </div>  <div class="container section" id="experience">
+  </div>
+
+  <div class="container section" id="experience">
     <h2 class="text-center mb-4">Experience</h2>
     <div class="mb-4">
       <h5>Data Science Intern – Niva Bupa Health Insurance (Feb 2024 – Jun 2024)</h5>
@@ -71,14 +97,30 @@
         <li>Implemented pricing strategy models for Airbnb listings.</li>
       </ul>
     </div>
-  </div>  <div class="container section" id="education">
+  </div>
+
+  <div class="container section" id="education">
     <h2 class="text-center mb-4">Education</h2>
     <div>
       <h5>B.Tech – Computer Science and Engineering</h5>
       <p>I.K. Gujral Technical University, Jalandhar<br>
         Oct 2020 – Jun 2024 | CGPA: 8.7/10</p>
     </div>
-  </div>  <div class="container text-center section" id="socials">
+  </div>
+
+  <div class="container section" id="projects">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="project-card">
+      <h5>Text-Guided Audio Generation</h5>
+      <p>Developed a multi-modal generative architecture using U-net, VAE, and CLAP text encoder to generate Mel-spectrograms conditioned on textual inputs. Tools: PyTorch, Librosa, Transformers.</p>
+    </div>
+    <div class="project-card">
+      <h5>Fine-Tuning LLaMA-3 with LoRA</h5>
+      <p>Fine-tuned meta-llama/Llama-3.2-1B with LoRA and QLoRA for resource-efficient LLM customization. Built scalable training pipeline using Hugging Face Transformers and PEFT.</p>
+    </div>
+  </div>
+
+  <div class="container text-center section" id="socials">
     <h2>Connect with Me</h2>
     <p class="mt-3">
       <a href="https://www.linkedin.com/in/vidhi-rana-604b3a21a/" target="_blank">
@@ -91,7 +133,9 @@
         <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white">
       </a>
     </p>
-  </div>  <div class="container text-center section" id="tech">
+  </div>
+
+  <div class="container text-center section" id="tech">
     <h2>Technical Skills</h2>
     <div class="badges mt-4">
       <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
@@ -117,7 +161,12 @@
       <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white">
       <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white">
     </div>
-  </div>  <footer>
+  </div>
+
+  <footer>
     <p>&copy; 2025 Vidhi Rana | Powered by GitHub Pages</p>
-  </footer></body>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
